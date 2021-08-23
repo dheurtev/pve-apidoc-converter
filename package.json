@@ -1,9 +1,9 @@
 {
-  "name": "pve-apidoc-download",
+  "name": "pve-apidoc-converter",
   "version": "0.0.1",
   "description": "Download the Proxmox PVE API documentation (apidoc.js) from https://pve.proxmox.com/pve-docs/api-viewer/ and transform it so that the file can be imported in node",
-  "main": "",
-  "url": "",
+  "main": "./output/modified/apidocmod.js",
+  "url": "https://github.com/dheurtev/pve-apidoc-download",
   "homepage": "https://github.com/dheurtev",
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "apidocumentation"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node ./test.js",
     "download": "node ./download.js",
     "modifyapidoc": "node ./modifyapidoc.js",
     "build": "node ./download.js && node ./modifyapidoc.js"
@@ -38,5 +38,8 @@
   "dependencies": {},
   "bugs": {
     "url": "https://github.com/dheurtev/pve-apidoc-download/issues"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
