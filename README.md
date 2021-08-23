@@ -30,7 +30,7 @@ If you find this package useful, please consider donating via Paypal to support 
 
 ### Licence
 Published under: AGPL v3. 
-Read the [LICENSE](https://github.com/dheurtev/pve-apidoc-download/blob/main/LICENSE) file
+Read the [LICENSE](https://github.com/dheurtev/pve-apidoc-converter/blob/main/LICENSE) file
 
 Copyright (c) the respective contributors, as shown by the AUTHORS file.
 
