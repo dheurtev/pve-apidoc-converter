@@ -1,0 +1,42 @@
+{
+  "name": "pve-apidoc-download",
+  "version": "0.0.1",
+  "description": "Download the Proxmox PVE API documentation (apidoc.js) from https://pve.proxmox.com/pve-docs/api-viewer/ and transform it so that the file can be imported in node",
+  "main": "",
+  "url": "",
+  "homepage": "https://github.com/dheurtev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dheurtev/pve-apidoc-download.git"
+  },
+  "author": "David HEURTEVENT (https://www.linkedin.com/in/david-heurtevent/)",
+  "email": "david@heurtevent.org",
+  "license": "AGPL-3.0-or-later",
+  "keywords": [
+    "proxmox",
+    "pve",
+    "json",
+    "api",
+    "apidocumentation"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "download": "node ./download.js",
+    "modifyapidoc": "node ./modifyapidoc.js",
+    "build": "node ./download.js && node ./modifyapidoc.js"
+  },
+  "scriptsComments": {
+    "download": "Download the API spec (apidoc.js) from https://pve.proxmox.com/pve-docs/api-viewer/. Saved as ./output/proxmoxsrc/apidoc.js",
+    "modifyapidoc": "Read the apidoc.js file, modify it so that it can be imported in node.js using require. Saved as ./output/modified/apidocmod.js"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://www.paypal.com/donate?hosted_button_id=MU8N9KU6VLBME"
+    }
+  ],
+  "dependencies": {},
+  "bugs": {
+    "url": "https://github.com/dheurtev/pve-apidoc-download/issues"
+  }
+}
