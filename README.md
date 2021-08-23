@@ -18,7 +18,11 @@ npm run-script test
 It should print the apidoc object to console
 
 ### Access the output
-The output file is apidocmod.js : ./output/modified/apidocmod.js
+The output file is apidocmod.js in [./output/modified/apidocmod.js](https://github.com/dheurtev/pve-apidoc-download/blob/main/output/modified/apidocmod.js)
+
+### Contributors
+Check the [AUTHORS](https://github.com/dheurtev/pve-apidoc-download/blob/main/AUTHORS) file
+- David Heurtevent
 
 ### Help needed
 If you find this package useful, please consider donating via Paypal to support my non-profit and open source development activities :
@@ -26,7 +30,7 @@ If you find this package useful, please consider donating via Paypal to support 
 
 ### Licence
 Published under: AGPL v3. 
-Read the LICENCE file
+Read the [LICENSE](https://github.com/dheurtev/pve-apidoc-download/blob/main/LICENSE) file
 
 Copyright (c) the respective contributors, as shown by the AUTHORS file.
 
