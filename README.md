@@ -10,8 +10,8 @@ npm install pve-apidoc-converter
 
 ### Example of use of the converted apidoc
 ```javascript
-const apidoc = require('pve-apidoc-converter')
-console.log(apidoc)
+const apidoc = require('pve-apidoc-converter');
+console.log(apidoc);
 ```
 
 ### Scripts
