@@ -4,12 +4,12 @@ Download the Proxmox PVE API documentation (apidoc.js) from https://pve.proxmox.
 ## Use
 
 ### Install the package
-```
+```javascript
 npm install pve-apidoc-converter
 ```
 
 ### Example of use of the converted apidoc
-```
+```javascript
 const apidoc = require(pve-apidoc-converter)
 console.log(apidoc)
 ```
@@ -17,17 +17,17 @@ console.log(apidoc)
 ### Scripts
 
 #### Download the file from Proxmox
-```
+```javascript
 npm run-script download
 ```
 
 #### Modify it to make it usable
-```
+```javascript
 npm run-script modifyapidoc
 ```
 
 #### Test it
-```
+```javascript
 npm run-script test
 ```
 
