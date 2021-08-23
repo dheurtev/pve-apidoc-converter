@@ -1,10 +1,10 @@
-# pve-apidoc-download
+# pve-apidoc-converter
 Download the Proxmox PVE API documentation (apidoc.js) from https://pve.proxmox.com/pve-docs/api-viewer/ and transform it so that the file can be imported in node.js
 
 ## Use
 
 ### Install the package
-npm install pve-apidoc-download
+npm install pve-apidoc-converter
 
 ### Download the file from Proxmox
 npm run-script download
@@ -18,10 +18,10 @@ npm run-script test
 It should print the apidoc object to console
 
 ### Access the output
-The output file is apidocmod.js in [./output/modified/apidocmod.js](https://github.com/dheurtev/pve-apidoc-download/blob/main/output/modified/apidocmod.js)
+The output file is apidocmod.js in [./output/modified/apidocmod.js](https://github.com/dheurtev/pve-apidoc-converter/blob/main/output/modified/apidocmod.js)
 
 ### Contributors
-Check the [AUTHORS](https://github.com/dheurtev/pve-apidoc-download/blob/main/AUTHORS) file
+Check the [AUTHORS](https://github.com/dheurtev/pve-apidoc-converter/blob/main/AUTHORS) file
 - David Heurtevent
 
 ### Help needed
