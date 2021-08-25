@@ -1,6 +1,6 @@
 {
   "name": "pve-apidoc-converter",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Download the Proxmox PVE API documentation (apidoc.js) from https://pve.proxmox.com/pve-docs/api-viewer/ and transform it so that the file can be imported in node",
   "main": "./output/modified/apidocmod.js",
   "url": "https://github.com/dheurtev/pve-apidoc-converter",
@@ -23,11 +23,14 @@
     "test": "node ./test.js",
     "download": "node ./download.js",
     "modifyapidoc": "node ./modifyapidoc.js",
-    "build": "node ./download.js && node ./modifyapidoc.js"
+    "build": "node ./download.js && node ./modifyapidoc.js",
+    "generatereport": "node ./generate_report.js",
   },
   "scriptsComments": {
     "download": "Download the API spec (apidoc.js) from https://pve.proxmox.com/pve-docs/api-viewer/. Saved as ./output/proxmoxsrc/apidoc.js",
-    "modifyapidoc": "Read the apidoc.js file, modify it so that it can be imported in node.js using require. Saved as ./output/modified/apidocmod.js"
+    "modifyapidoc": "Read the apidoc.js file, modify it so that it can be imported in node.js using require. Saved as ./output/modified/apidocmod.js",
+    "build":"Download the API spec from Proxmox and make the file ready to be used in node.js",
+    "generatereport":"Generate an analysis of the API documentation",
   },
   "funding": [
     {

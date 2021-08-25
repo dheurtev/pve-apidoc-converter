@@ -1,7 +1,12 @@
-// regarding apidoc.js https://forum.proxmox.com/threads/api-questions.37581/
+// Downloads the PVE Proxmox API documentation
+//
+// Author: David HEURTEVENT
+
+/* Licence: Public Domain */
+
 // inspired by :
 // https://www.geeksforgeeks.org/how-to-download-a-file-using-node-js/
-//https://stackoverflow.com/questions/11944932/how-to-download-a-file-with-node-js-without-using-third-party-libraries
+// https://stackoverflow.com/questions/11944932/how-to-download-a-file-with-node-js-without-using-third-party-libraries
 
 var https = require('https');
 var fs = require('fs');
