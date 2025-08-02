@@ -1,4 +1,8 @@
 # pve-apidoc-converter
+
+> [!WARNING]  
+> This piece of software is unmaintained and considered deprecated. It will be taken down on Jan 1, 2026.
+
 Download the PVE API documentation (apidoc.js) from Proxmox 
 and transform it so that the file can be imported in node.js
 
